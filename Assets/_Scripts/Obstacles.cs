@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class Obstacles : MonoBehaviour
 {
-    private Settings _settings;
-
     private bool _infected;
-    public bool Infected => _infected;
     
     private Material defaultMaterial;
     [SerializeField] private Material infectionMaterial;
